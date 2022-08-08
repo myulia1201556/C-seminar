@@ -33,4 +33,7 @@ else if (a == 7)
 {
     Console.WriteLine("Сегодня воскресение");
 }
-else {Console.Write("Ошибочный ввод данных");}
+else
+{
+    Console.Write("Ошибочный ввод данных");
+}
