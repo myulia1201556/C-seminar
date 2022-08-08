@@ -7,11 +7,9 @@
 
 Console.WriteLine("Введите трёхзначное число: ");
 int a = Convert.ToInt32(Console.ReadLine());
-if (a >=100 || a <= 999)
+if (a >=100 && a <= 999)
 {
     Console.WriteLine($"Последняя цифра числа {a} = {a % 10}");
 }
 else
-{
-    Console.WriteLine("Неверно введённое число");
-}
+    Console.WriteLine("Неверно введённое число, попробуйте снова");
